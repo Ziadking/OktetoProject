@@ -7,7 +7,6 @@ spec:
     matchLabels:
       app: hello-world
   replicas: 1
-  size: 1Gi
   template:
     metadata:
       labels:
